@@ -76,8 +76,8 @@
 /* Shop Item */
 .shop-item {
   background-color: #fff;
-  width: 331px; /* Adjust width for compact layout */
-  height: 550px; /* Allow height to adjust dynamically */
+  width: 331px; 
+  height: 550px; 
   border: 1px solid #eaeaea;
   border-radius: 12px; /* Rounded corners */
   padding: 16px;
@@ -104,13 +104,13 @@
   border-radius: 8px;
   margin-bottom: 1rem;
   transition: opacity 0.3s ease; /* Smooth fade-out effect */
+  flex-shrink: 0; /* Prevent shrinking to maintain size */
 }
 
 
 /* Item Name */
 .item-name {
   font-weight: bold;
-  font-size: 1rem;
   margin-bottom: 0.5rem;
   color: #333;
   display: flex;
@@ -168,6 +168,7 @@
   font-size: 1rem;
   color: #555;
   margin-bottom: 1rem;
+  padding-top: 50px;
 }
 
 .item-stock-quantity{
